@@ -6,3 +6,12 @@ function changeName (userNewName) {
 }
 
 name = changeName("ahmed11")
+
+function getSum (arrayOfNums) {
+	let sum = 0
+	let i = 0
+	while(i < arrayOfNums.length) {
+		sum += arrayOfNums[i]
+	}
+	return sum
+}
